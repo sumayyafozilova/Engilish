@@ -1,0 +1,69 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: chocolate;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+img {
+    display: inline-block;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    border: 3px solid wheat;
+    border-radius: 20px;
+    padding: 10px;
+   margin: 500px;
+    width: 100%;
+    gap: 150px;
+    max-width: 1200px;
+    
+}
+.playButton{
+    border: none;
+    width: 120px;
+    color: chocolate;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: chartreuse;
+    border-radius: 10px;
+    box-shadow: 50px;
+ 
+}
+h1 {
+    color: yellow; /* Harflar sariq bo'ladi */
+    cursor: pointer; /* Harflarga kursor qo'yish */
+    transition: color 0.3s; /* Rang o'zgarishini yumshatish */
+}
+
+h1.active {
+    color: green; /* Harf aktiv bo'lsa, uning rangi yashil bo'ladi */
+}
+
+
+
+
+
